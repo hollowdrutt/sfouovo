@@ -1,0 +1,16 @@
+{
+  "name": "sfouovo",
+  "version": "1.0.0",
+  "description": "A project to generate ebook versions of the book Sällskapet för Ordningens Upphörande och Värdenas Omvändelse by Thomas C. Berrian",
+  "author": "Parkliv ADB",
+  "scripts": {
+    "build": "node src/main.js"
+  },
+  "devDependencies": {
+    "pandoc-bin": "^0.2.0"
+  },
+  "dependencies": {
+    "kindlegen": "^1.1.0",
+    "replace": "^1.1.0"
+  }
+}
