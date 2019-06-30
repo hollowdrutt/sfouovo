@@ -1,6 +1,7 @@
 const kindlegen = require('kindlegen');
 const input = require('fs');
 const output = require('fs');
+const fs = require('fs');
 const resolve = require('path').resolve;
 const execFile = require('child_process').execFileSync;
 const pandoc = require('pandoc-bin').path;
@@ -16,6 +17,9 @@ function convertFile(parameters){
     if (err) console.log(err);
   });    
 }
+
+var releaseDir = resolve(__dirname,'../release');
+!fs.existsSync(releaseDir) && fs.mkdirSync(releaseDir);
 
 replace({
   regex: "cover-image:.*",
