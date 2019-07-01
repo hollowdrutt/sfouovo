@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A project to generate ebook versions of the book Sällskapet för Ordningens Upphörande och Värdenas Omvändelse by Thomas C. Berrian",
   "author": "Parkliv ADB",
+  "repository": "github:hollowdrutt/sfouovo",
+  "license": "MIT",
   "scripts": {
     "build": "node src/main.js"
   },
