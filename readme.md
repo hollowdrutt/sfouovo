@@ -4,11 +4,9 @@ A project to generate ebook versions of the book Sällskapet för Ordningens Upp
 
 This project is developed and maintained by Parkliv ADB.
 
-See [the issue tracker] for more details.
-
 ## Online Copies of this Book
 
-See the releases page for the project or use this link to [latest release](https://github.com/hollowdrutt/sfouovo/releases/latest/download/package.zip)
+See the [releases page](https://github.com/hollowdrutt/sfouovo/releases/latest) for the project.
 
 ## Steps for building the project locally
 
@@ -20,6 +18,10 @@ See the releases page for the project or use this link to [latest release](https
 npm install
 npm run build
 ```
+
+## Build status
+
+[![Build Status](https://travis-ci.org/hollowdrutt/sfouovo.svg?branch=master)](https://travis-ci.org/hollowdrutt/sfouovo)
 
 ## License
 
